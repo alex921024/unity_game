@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1red wall down l_0: 1457538387934116282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      curtain_blood3_0: -7468595307878382782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

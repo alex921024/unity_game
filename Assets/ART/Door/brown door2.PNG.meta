@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      brown door2_0: 7927248809249978785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

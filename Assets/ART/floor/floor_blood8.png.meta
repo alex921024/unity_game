@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      floor_blood8_0: 495286698280169264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

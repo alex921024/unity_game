@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      floor_web1_0: 6567324750198709315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      podium_light3_0: 1990596261016582148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

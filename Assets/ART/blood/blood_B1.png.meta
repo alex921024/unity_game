@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blood_B1_0: 2567362488397435579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

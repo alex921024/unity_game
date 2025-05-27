@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TV_noiseA_4_0: -5142749538789620111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

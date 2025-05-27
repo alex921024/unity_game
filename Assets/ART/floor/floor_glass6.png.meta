@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      floor_glass6_0: 9054933532447151826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

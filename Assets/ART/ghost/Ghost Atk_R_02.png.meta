@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost Atk_R_02_0: -4821790016963383315
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

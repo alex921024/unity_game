@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RoundTable_bloodstein_0: -7906747725896447097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      podium_blood2_0: -2133939718314993248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

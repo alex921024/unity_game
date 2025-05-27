@@ -272,7 +272,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOSS_A_SPEAK_0: 3145974651954602328
+      BOSS_A_SPEAK_1: 3855222314385564407
+      BOSS_A_SPEAK_2: -2662279155063799107
+      BOSS_A_SPEAK_3: -1626679887607650534
+      BOSS_A_SPEAK_4: -4866595466361960935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

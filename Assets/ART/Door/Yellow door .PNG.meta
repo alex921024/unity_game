@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow door _0: 8485592964089372157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

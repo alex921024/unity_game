@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Player use props_0005_0: -8028723782646750269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -224,7 +224,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOSS_GIF_0: 5179679207273225853
+      BOSS_GIF_1: -8787198749382647897
+      BOSS_GIF_2: -3560138403082260757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

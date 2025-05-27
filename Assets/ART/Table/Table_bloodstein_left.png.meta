@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Table_bloodstein_left_0: 2249509744129441491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

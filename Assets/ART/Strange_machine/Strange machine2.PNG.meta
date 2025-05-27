@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Strange machine2_0: -8558185969019243554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

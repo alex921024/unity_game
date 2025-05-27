@@ -224,7 +224,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOSS_D_DAMAGED_0: -7531482814804173932
+      BOSS_D_DAMAGED_1: -1646478637404623654
+      BOSS_D_DAMAGED_2: 4811178184750749164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

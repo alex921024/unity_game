@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      miracle_block-Sheet-1_0: 4036684627356956594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

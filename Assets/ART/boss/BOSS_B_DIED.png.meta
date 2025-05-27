@@ -368,7 +368,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOSS_B_DIED_0: -978446711380575142
+      BOSS_B_DIED_1: -9201589265779745325
+      BOSS_B_DIED_2: 314289633181994773
+      BOSS_B_DIED_3: 6038055586074828631
+      BOSS_B_DIED_4: 3325342044522181138
+      BOSS_B_DIED_5: -8873609346534608063
+      BOSS_B_DIED_6: 9015938868186576756
+      BOSS_B_DIED_7: 5157961660428114182
+      BOSS_B_DIED_8: 7843942475094757094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chocolate door _0: -4644168493026077342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

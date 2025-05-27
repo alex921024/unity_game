@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost Idle_back_01_0: 2055973694440997631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

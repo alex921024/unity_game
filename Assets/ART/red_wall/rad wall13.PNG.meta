@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rad wall13_0: 4794492788001876417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

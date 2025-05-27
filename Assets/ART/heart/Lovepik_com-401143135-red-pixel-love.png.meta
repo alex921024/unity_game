@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lovepik_com-401143135-red-pixel-love_0: -3147935473737986436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TV_blood+crack_1_0: -1976803731826202320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

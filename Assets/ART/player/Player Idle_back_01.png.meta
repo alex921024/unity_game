@@ -176,7 +176,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Player Idle_back_01_0: -7331634485552262116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     int jumpCount = 0;
     int maxJumpCount = 2;
-
+   
     PlayerStatus status;
     Vector3 respawnPoint;
     void Start()
@@ -25,22 +25,32 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumpCount)
-        {
+        { 
+            GetComponent<Animator>().SetBool("jump", true);
             this.player2D.velocity = new Vector2(player2D.velocity.x, 0);
             this.player2D.AddForce(transform.up * this.jumpForce);
             jumpCount++;
+            GetComponent<Animator>().SetBool("run", true);
         }
+  
 
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(dir * Time.deltaTime, 0, 0);
             GetComponent<SpriteRenderer>().flipX = false;
+            GetComponent<Animator>().SetBool("run", true);
+            
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(-dir * Time.deltaTime, 0, 0);
             GetComponent<SpriteRenderer>().flipX = true;
+            GetComponent<Animator>().SetBool("run", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("run", false);
         }
     }
     void OnCollisionEnter2D(Collision2D other)
@@ -53,13 +63,26 @@ public class PlayerController : MonoBehaviour
                 dir = 2.25f;
                 jumpCount = 0;
                 transform.parent = other.transform;
+                GetComponent<Animator>().SetBool("jump", false); 
             }
         } else if (other.gameObject.tag == "thundercloud")
         {
-            Debug.Log("撞到雷雲");
-            transform.parent = other.transform;
-            jumpCount = 1;
-            dir = 1.5f;
+            if (other.contacts[0].normal == new Vector2(0f, 1f))
+            {
+                Debug.Log("撞到雷雲");
+                transform.parent = other.transform;
+                jumpCount = 1;
+                dir = 1.5f;
+                GetComponent<Animator>().SetBool("jump", false);
+            }
+        }
+    }
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "cloud" || other.gameObject.tag == "thundercloud") 
+        {
+            transform.parent = null;
+            
         }
     }
     void OnTriggerEnter2D(Collider2D other) {

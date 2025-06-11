@@ -20,7 +20,7 @@ public class FloorManager : MonoBehaviour
         int attempt = 0;
         do
         {
-            float x = Random.Range(6.0f, 6.2f);
+            float x = Random.Range(9.0f, 9.2f);
             float y = Random.Range(-4f, 4f);
             newPos = new Vector3(x, y, 0);
         }

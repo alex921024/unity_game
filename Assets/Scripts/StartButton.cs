@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class StartButton: MonoBehaviour
 {
     // Start is called before the first frame update
+   
     void Start()
     {
         
@@ -18,7 +19,10 @@ public class StartButton: MonoBehaviour
     }
     public void StartButtonClicked()
     {
+        
+        
         //ИѕТрЈь SampleScene
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        
     }
 }

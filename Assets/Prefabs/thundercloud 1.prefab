@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2704034199096245447}
   - component: {fileID: 5920538555423060018}
   - component: {fileID: 3652054509699429164}
-  - component: {fileID: 8381984301435318096}
   m_Layer: 0
   m_Name: thundercloud 1
   m_TagString: thundercloud
@@ -144,15 +143,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3326743, y: 0.53536665}
   m_EdgeRadius: 0
---- !u!114 &8381984301435318096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4099273973148172601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b64bf330e8fd9c4b82f39ec483a2d39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

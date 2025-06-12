@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class FloorManager : MonoBehaviour
 {
+    float moveSpeed;
     [SerializeField] GameObject[] floorPrefabs;
     //§PÂ_¶¡¹j
     private Vector3? lastFloorPosition = null;
@@ -23,6 +24,8 @@ public class FloorManager : MonoBehaviour
             float x = Random.Range(9.0f, 9.2f);
             float y = Random.Range(-4f, 4f);
             newPos = new Vector3(x, y, 0);
+            
+           
         }
         while (lastFloorPosition != null &&
                (Vector3.Distance(newPos, lastFloorPosition.Value) < minDistance ||

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class endButton : MonoBehaviour
 {
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +22,7 @@ public class endButton : MonoBehaviour
     {
         // SampleScene        
         SceneManager.LoadScene("start", LoadSceneMode.Single);
+        
+
     }
 }

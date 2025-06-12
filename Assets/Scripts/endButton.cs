@@ -19,7 +19,7 @@ public class endButton : MonoBehaviour
     }
     public void EndButtonClicked()
     {
-        //ИѕТрЈь SampleScene        
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        // SampleScene        
+        SceneManager.LoadScene("start", LoadSceneMode.Single);
     }
 }
